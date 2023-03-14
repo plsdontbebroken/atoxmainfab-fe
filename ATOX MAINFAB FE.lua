@@ -1693,7 +1693,8 @@ coroutine.wrap(YLCBUA_fake_script)()
 
 local startergui = game:GetService("StarterGui")
 
-startergui:SetCore("SendNotif", {
+wait(3)
+startergui:SetCore("SendNotification", {
 	Title = "loaded",
 	Text = "all of this is skidded good sir"
 })
